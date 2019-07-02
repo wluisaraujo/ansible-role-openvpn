@@ -1,4 +1,4 @@
 ---
-# defaults file for nginx
-service_name: ngnix
+# defaults file for openvpn
+service_name: openvpn
 ...

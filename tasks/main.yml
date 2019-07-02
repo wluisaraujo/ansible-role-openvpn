@@ -1,7 +1,7 @@
 ---
-# tasks file for nginx
+# tasks file for openvpn
 
-- name: "This is NGINX"
+- name: "This is OpenVPN"
   shell: echo
 
 ...

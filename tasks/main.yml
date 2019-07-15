@@ -1,7 +1,12 @@
 ---
 # tasks file for openvpn
 
-- name: "This is OpenVPN"
-  shell: echo
+- name: "Install the openvpn package"
+  package:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - openvpn
 
 ...

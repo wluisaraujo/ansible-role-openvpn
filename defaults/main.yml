@@ -1,4 +1,8 @@
 ---
 # defaults file for openvpn
 service_name: openvpn
+client: 192.168.10.2
+secret_key: /etc/openvpn/keys/server.key
+server: 192.168.10.1
+vpn_gateway: 200.100.50.100
 ...

@@ -1,0 +1,11 @@
+#
+dev tun
+ifconfig {{ server }} {{ client }}
+secret {{ secret_key }}
+port 1194
+comp-lzo
+ver 4
+keepalive 10 120
+persitent-key
+persitent-tun
+float

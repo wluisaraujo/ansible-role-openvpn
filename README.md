@@ -16,8 +16,12 @@ Requirements
 Installation
 ------------
 
+Installation
+------------
+
 ```console
 vagrant@localhost:~$ ansible-galaxy install wluisaraujo.openvpn
+vagrant@localhost:~$ ansible-galaxy install -r wluisaraujo.openvpn/requirements.txt
 ```
 
 Role Variables
